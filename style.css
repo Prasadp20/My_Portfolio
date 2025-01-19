@@ -385,7 +385,7 @@ article .icon {
 }
 
 /* CONTACT */
-/* 
+
 #contact {
     display: flex;
     justify-content: center;
@@ -422,68 +422,8 @@ article .icon {
 
 .email-icon {
     height: 2.5rem;
-} */
-
-/* CONTACT */
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    text-align: center;
 }
 
-.contact-info-upper-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 2rem;
-    border: 0.1rem solid rgb(163, 163, 163);
-    background-color: rgb(250, 250, 250);
-    margin: 2rem auto;
-    padding: 1.5rem;
-    width: 90%;
-    max-width: 800px;
-}
-
-.contact-info-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 1rem;
-    margin: 1rem;
-    flex: 1 1 300px; /* Ensures flexible alignment for smaller screens */
-}
-
-.contact-info-container p {
-    font-size: 1.2rem;
-    margin: 0;
-    word-break: break-word; /* Ensures long text doesn't overflow */
-}
-
-.contact-info-container a {
-    color: rgb(53, 53, 53);
-    text-decoration: none;
-}
-
-.contact-info-container a:hover {
-    text-decoration: underline;
-    color: rgb(0, 122, 255); /* Hover effect */
-}
-
-.contact-icon {
-    height: 2.5rem;
-    width: 2.5rem;
-    cursor: default;
-    object-fit: contain;
-}
-
-
-.email-icon {
-    height: 2.5rem;
-    width: auto;
-}
 
 
 /* FOOTER SECTION */
